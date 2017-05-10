@@ -1,0 +1,36 @@
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+#panel, #flip
+{
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel 
+{
+    padding: 50px;
+    display: none;
+}
+
+#intro
+{
+	background-color: lightgrey;
+    width: 1000px;
+    border: 15px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+
+#myDIV {
+    width: 500px;
+    height: 500px;
+    background-color: lightblue;
+}
