@@ -6,6 +6,10 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
 #panel, #flip
 {
     padding: 5px;
@@ -23,14 +27,8 @@
 #intro
 {
 	background-color: lightgrey;
-    width: 1000px;
-    border: 15px solid green;
+    width: 300px;
+    border: 25px solid green;
     padding: 25px;
     margin: 25px;
-}
-
-#myDIV {
-    width: 500px;
-    height: 500px;
-    background-color: lightblue;
 }

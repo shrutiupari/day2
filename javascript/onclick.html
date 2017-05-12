@@ -1,7 +1,13 @@
 <html>
 	<head>
 		<title> JAVASCRIPT TUTORIAL </title>
-	</head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><style type="text/css">
+<!--
+body {
+	margin-left: 10px;
+}
+-->
+</style></head>
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
  <!-- Latest compiled and minified CSS -->
@@ -12,19 +18,9 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<link rel = "stylesheet"
-   type = "text/css"
-   href = "style.css" />
 	<h2>JavaScript Variables</h2>
 	<p>JavaScript variables are containers for storing data values.</p>
-	<br>
-	<h2> Examples </h2>
-	<table width="935" height="121" border="1" cellpadding="50" cellspacing="20">
-		<tr>
-            <td width="392"><div class="w3-padding w3-white notranslate">
-				
 <script>
-	
 	function myFunction()
 	{
   var y = document.getElementById("txt1").value;
@@ -32,44 +28,67 @@
   var x = y + z;
   document.getElementById("demo").innerHTML = x;
 	}
-	
 	</script>
 	<p>
   Click the button to calculate x.
-  <button onclick="myFunction()">Try it</button>
+  <button onClick="myFunction()">Try it</button>
 </p>
 <p>
   Enter first number:
-  <input type="text" id="txt1" name="text1" value="1"><br>
-  <br>
-	Enter second number:
+  <input type="text" id="txt1" name="text1" value="1">
+  Enter second number:
   <input type="text" id="txt2" name="text2" value="2">
 </p>
-<p id="demo"></p>
-	<br>
-<td width="397"><div align="left">&lt;!DOCTYPE html&gt;<br />
-
-&lt;script&gt;<br />
-	function myFunction()<br />
-	{<br />
-  var y = document.getElementById("txt1").value;<br />
-  var z = document.getElementById("txt2").value;<br />
-  var x = y + z;<br />
-  document.getElementById("demo").innerHTML = x;<br />
-	}<br />
-	&lt;/script&gt;<br />
-	&lt;p&gt;<br />
-  Click the button to calculate x.<br />
-  &lt;button onclick="myFunction()"&gt;Try it&lt;/button&gt;<br />
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<table width="448" height="263" border="1" align="right" cellpadding="20" cellspacing="20">
+  <tr>
+    <td width="364" height="135">&lt;script&gt;<br />
+function myFunction()<br />
+{<br />
+var y = document.getElementById("txt1").value;<br />
+var z = document.getElementById("txt2").value;<br />
+var x = y + z;<br />
+document.getElementById("demo").innerHTML = x;<br />
+}<br />
+&lt;/script&gt;<br />
+&lt;p&gt;<br />
+Click the button to calculate x.<br />
+&lt;button onclick="myFunction()"&gt;Try it&lt;/button&gt;<br />
 &lt;/p&gt;<br />
 &lt;p&gt;<br />
-  Enter first number:<br />
-  &lt;input type="text" id="txt1" name="text1" value="1"&gt;<br />
-  Enter second number:<br />
-  &lt;input type="text" id="txt2" name="text2" value="2"&gt;<br />
+Enter first number:<br />
+&lt;input type="text" id="txt1" name="text1" value="1"&gt;<br />
+Enter second number:<br />
+&lt;input type="text" id="txt2" name="text2" value="2"&gt;<br />
 &lt;/p&gt;<br />
-&lt;p id="demo"&gt;&lt;/p&gt;
+&lt;p id="demo"&gt;&lt;/p&gt; </td>
+  </tr>
+</table>
+<table width="592" height="466" border="1" cellpadding="20" cellspacing="20">
+  <tr>
+    <td><p>Click the button to calculate x.
+      <button onClick="myFunction()">Try it</button>
+    </p>
+      <p>&nbsp;</p>
+      <p> Enter first number:
+        <input type="text" id="text1" name="text12" value="1">
+      </p>
+      <p>Enter second number:
+        <input type="text" id="text2" name="text22" value="2">
+            </p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p></td>
+  </tr>
+</table>
+<p id="demo"></p>
 	
-	
+</html>
+
 
 
