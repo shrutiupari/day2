@@ -12,6 +12,7 @@
 
 <!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<div class="container">
 			<!-- Brand and toggle get grouped for better mobile display -->
@@ -28,14 +29,13 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Tutorial</a></li>
-					<li><a href="#">Introduction</a></li>
+					<li class="active"><a href="tutorial.html">Tutorial</a></li>
+					<li><a href="index.html">Introduction</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="#">Examples</a></li>
-							<li><a href="#">References</a></li>
-							<li><a href="#">Simple Quiz</a></li>
+							<li><a href="references.html">References</a></li>
+							<li><a href="quiz.html">Simple Quiz Questions</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -88,18 +88,67 @@
   </div>
 
 	<h2 class="m-b-80 m-t-80"> <center> Let's Get Started </center> </h2>
+	<style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  </style>
 	
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script> 
-$(document).ready(function(){
-    $("#flip").click(function(){
-        $("#panel").slideToggle("slow");
-    });
-});
-</script>
+	<div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
 
-	<img src="file:///C|/Users/Shruti/Documents/Unnamed Site 1/img1.html" width="1314" height="300" alt="image">
-	<div id="flip">JavaScript Introduction</div>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img src="js2.jpg" alt="js2" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>JS</h3>
+          <p>Easy to Learn</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="js1.png" alt="js1" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>JS</h3>
+          <p>Free to read</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="js.png" alt="js" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>JS</h3>
+          <p>Open Source</p>
+        </div>
+      </div>
+</div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  
+</div>
+<div id="flip">JavaScript Introduction</div>
 <div id="panel">
 	<a href ="/home/aisselnew2/Shruti/tutorial/Intro.html"> About JavaScript </a>
 	</div>
@@ -133,15 +182,74 @@ $(document).ready(function(){
 	<a href ="/home/aisselnew2/Shruti/tutorial/func.html"> JS Functions </a>
 	</div>
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
+	<div id="flip">JavaScript Statements</div>
+<div id="panel">
+	<a href ="/home/aisselnew2/Shruti/tutorial/stmt.html"> About Statements </a>
+	</div>
+	<br>
+	<div id="flip">JavaScript Comments</div>
+<div id="panel">
+	<a href ="/home/aisselnew2/Shruti/tutorial/comment.html"> About Comment </a>
+	</div>
+	<br>
+	<div id="flip">JavaScript Objects</div>
+<div id="panel">
+	<a href ="/home/aisselnew2/Shruti/tutorial/object.html"> About Objects </a>
+	</div>
+	<br>
+	<div id="flip">JavaScript Scope</div>
+<div id="panel">
+	<a href ="/home/aisselnew2/Shruti/tutorial/scope.html"> About Scope </a>
+	</div>
+	<br>
+	<div id="flip">JavaScript Events</div>
+<div id="panel">
+	<a href ="/home/aisselnew2/Shruti/tutorial/events.html"> About Events </a>
+	</div>
+	<br>
+	<div id="flip">JavaScript Strings </div>
+<div id="panel">
+	<a href ="/home/aisselnew2/Shruti/tutorial/string.html"> About Strings </a>
+	</div>
+	<br>
+	<div id="flip">JavaScript Dates</div>
+<div id="panel">
+	<a href ="/home/aisselnew2/Shruti/tutorial/date.html"> About Dates </a>
+	</div>
+	<br>
+	<div id="flip">JavaScript Date Formats</div>
+<div id="panel">
+	<a href ="/home/aisselnew2/Shruti/tutorial/dformat.html"> About Date Format </a>
+	</div>
+	<br>
+	<div id="flip">JavaScript Date Methods</div>
+<div id="panel">
+	<a href ="/home/aisselnew2/Shruti/tutorial/dmethod.html"> About Date Methods </a>
+	</div>
+	<br>
+	<div id="flip">JavaScript Arrays</div>
+<div id="panel">
+	<a href ="/home/aisselnew2/Shruti/tutorial/array.html"> About Array </a>
+	</div>
+	<br>
+	<div id="flip">JavaScript Conditions</div>
+<div id="panel">
+	<a href ="/home/aisselnew2/Shruti/tutorial/condition.html"> About Conditions </a>
+	</div>
+	<br>
+	<div id="flip">JavaScript Forms</div>
+<div id="panel">
+	<a href ="/home/aisselnew2/Shruti/tutorial/forms.html"> About Forms </a>
+	</div>
+	<br>
+	<div id="flip">JavaScript Objects Definition</div>
+<div id="panel">
+	<a href ="/home/aisselnew2/Shruti/tutorial/odefinition.html"> About Object Definition </a>
+	</div>
+	<br>
+	<div id="flip">JavaScript Object Methods</div>
+<div id="panel">
+	<a href ="/home/aisselnew2/Shruti/tutorial/omethod.html"> About Object Methods </a>
+	</div>
+	<br>
 </html>
